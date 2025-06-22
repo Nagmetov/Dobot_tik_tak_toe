@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/1.css') }}">
+</head>
+<body>
+    <h1>Bac cHuMaeT cKPbITa9I KaMePa, yJIbI604Ky</h1>
+    <div class="container">
+        <video id="video" width="640" height="480" autoplay></video>
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
+    <button id="snap">Snap Photo</button>
+    
+    <script src="{{ url_for('static', filename='js/camera.js') }}"></script>
+</body>
+</html>
